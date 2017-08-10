@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+  font-family: "goodtime";
+  src: url(../fonts/goodtime.otf)
+}
+
+@font-face {
+  font-family: "lane";
+  src: url(../fonts/LANEPOSH.ttf)
+}
+
+body {
+    background-image: url('../images/bg-pattern.jpg');
+}
+header {
+    background-color: #225274;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.logo {
+    float: left;
+    margin-left:100px;
+    margin-top: 15px;
+
+}
+
+nav {
+    float: right;
+    /*margin-right: 50px;
+    margin-top: 40px;*/
+    margin: 40px 50px 0px 0 ;
+}
+
+nav li {
+ list-style: none;
+ display: inline-block;;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    background-color: white;
+    width: 1000px;
+    min-height: 700px;
+    border:1px solid red;
+    margin: 0 auto 0 auto;
+    padding-top:160px;
+}
+
+.slider {
+    box-shadow: 3px 4px 5px #999;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+}
+
+#image_slider{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.content h1 {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "goodtime";
+}
+
+.content p {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: "lane";
+}
